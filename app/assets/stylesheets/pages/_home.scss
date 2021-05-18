@@ -1,1 +1,37 @@
 // Specific CSS for your home-page
+body {
+  background-color: rgb(12, 12, 1);
+}
+
+.section {
+  height: 600px;
+  width: 100%;
+  border: 1px solid black;
+  h2 {
+    text-align: center;
+    left: 50%;
+    top: 50%;
+  }
+}
+
+#one {
+  background-color: rgb(7, 10, 12);
+  color: rgb(245, 239, 239);  
+}
+
+
+
+#two {
+  background-color: rgb(202, 199, 199);
+  box-shadow: 15px 15px 25px rgb(238, 230, 230);
+}
+
+#three {
+  background-color: #59A5D8;
+  border-bottom: 0.5px solid white;
+}
+
+#four {
+  border-top: 0.5px solid white;
+  color: white;
+}
