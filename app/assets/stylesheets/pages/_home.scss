@@ -52,7 +52,34 @@ body {
 #three {
   background-color: #59A5D8;
   border-bottom: 0.5px solid white;
+
+  // h2 {
+  //   color: white;
+  //   text-align: left;
+  //   text-orientation: upright;
+  //   writing-mode: vertical-lr;
+  //   text-shadow: 1px 1px black;
+  //   font-size: larger;
+  //   z-index: 2;
+  // }
+
+  video {
+    height: 150px;
+    width: 285px;
+    z-index: 2;
+    position: absolute;
+    top: 1260px;
+    left: 11.8%;
+    border-radius: 5px;
+  }
+
+  img {
+    width: 50%;
+    height: 65%;
+    z-index: 1;
+  }
 }
+
 
 #four {
   border-top: 0.5px solid white;
