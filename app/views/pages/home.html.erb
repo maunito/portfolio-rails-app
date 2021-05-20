@@ -16,10 +16,12 @@
 </div>
 
 <div class="section" id="three">
-  <%= link_to "http://www.bayerisch.xyz", class: "bavarian"  do %>
-    <h2>BAVARIAN FOODBLOG</h2>
-  <% end %>
-  <%= video_tag "foodblog.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, class: "video" %>
+  <div class="videoWrapper d-flex">
+    <%= link_to "http://www.bayerisch.xyz", target: :_blank, class: "bavarian"  do %>
+      <h2>BAVARIAN FOODBLOG</h2>
+    <% end %>
+    <%= video_tag "foodblog.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, class: "video" %>
+  </div>
 </div>
 
 <div class="section" id="four">
