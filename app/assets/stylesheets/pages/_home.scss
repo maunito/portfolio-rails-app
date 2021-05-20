@@ -1,8 +1,12 @@
 // Specific CSS for your home-page
 body {
-  background-color: rgb(12, 12, 1);
-  font-family: josefin sans;
+  background-color: #08090a;
+  font-family: 'Raleway', sans-serif;
 }
+
+
+
+
 
 .section {
   height: 550px;
@@ -10,14 +14,23 @@ body {
 }
 
 
+
+
+
 #one {
-  background-color: rgb(7, 10, 12);
-  color: rgb(245, 239, 239);  
+  background-color: #08090a;
+  color: #f4faff;  
 
   p {
+    // text-shadow: 1px 1px #f4faff;
     font-size: xx-large;
+    letter-spacing: 13px;
   }
 }
+
+
+
+
 
 .d-flex {
   height: 550px;
@@ -36,10 +49,29 @@ body {
   
   .right {
     background-color: #08090a;
-    color: white;
+    color: #f4faff;
     width: 50%;
 
-    p {
+    // .maurice {
+    //   text-align: right;
+    //   letter-spacing: 3.5px;
+    //   position: absolute;
+    //   top: 10%;
+    //   right: 0;
+    //   font-size: 100;
+    // }
+
+    // .sattrasai {
+    //   float: right;
+    //   text-align: right;
+    //   text-orientation: upright;
+    //   writing-mode: vertical-lr;
+    //   position: absolute;
+    //   top: 17%;
+    //   right: 0;
+    // }
+
+    .llo {
       position: relative;
       top: 50%;
       text-align: left;      
@@ -49,14 +81,27 @@ body {
 
 
 
+
+.name {
+  background-color: #f4faff;
+  color: #08090a;
+  height: 50px;
+  font-size: x-large;
+  text-align: center;
+  letter-spacing:20px;
+}
+
+
+
+
 #two {
-  background-color: lightgray;
+  background-color: #f4faff;
 }
 
 #three {
   // background-color: #59A5D8;
   background-color: black;
-  border-bottom: 0.5px solid white;
+  border-bottom: 0.5px solid #f4faff;
 
   .videoWrapper {
     align-items: center;
@@ -65,7 +110,7 @@ body {
   }
 
   h2 {
-    color: white;
+    color: #f4faff;
     text-align: center;
     // text-orientation: upright;
     // writing-mode: vertical-lr;
@@ -87,8 +132,6 @@ body {
     text-decoration: none;
   }
 
-
-
   video {
     margin: 0 auto;
     height: 100%;
@@ -98,7 +141,6 @@ body {
     border-radius: 25px;
     margin-bottom: 5%;
   }
-
 
   img {
     width: 50%;
@@ -111,6 +153,6 @@ body {
 
 
 #four {
-  border-top: 0.5px solid white;
-  color: white;
+  border-top: 0.5px solid #f4faff;
+  color: #f4faff;
 }
