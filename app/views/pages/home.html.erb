@@ -16,8 +16,10 @@
 </div>
 
 <div class="section" id="three">
-  <h2>BAVARIAN FOODBLOG</h2>
-  <%= video_tag "foodblog.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, class: "home_video" %>
+  <%= link_to "http://www.bayerisch.xyz", class: "bavarian"  do %>
+    <h2>BAVARIAN FOODBLOG</h2>
+  <% end %>
+  <%= video_tag "foodblog.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, class: "video" %>
 </div>
 
 <div class="section" id="four">
