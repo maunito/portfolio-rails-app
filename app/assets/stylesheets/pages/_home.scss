@@ -73,10 +73,12 @@ body {
     font-size: larger;
     z-index: 2;
     margin-top: 20%;
+    transition: 0.5s;
+    font-weight: bold;
   }
 
   h2:hover {
-    font-weight: bold;
+    font-weight: none;
     color: #59A5D8;
     text-shadow: 1.2px 1.2px #FB9C0F;
   }
@@ -89,7 +91,7 @@ body {
 
   video {
     margin: 0 auto;
-    height: 90%;
+    height: 100%;
     width: 80%;
     z-index: 2;
     left: 10%;
