@@ -13,6 +13,12 @@
     color: white;
     text-align: center;
     letter-spacing: 10px;
+
+    @media screen and (max-width: 400px) {
+      #devel {
+        color: #08090a;
+      }
+    }
   }
 
 }
