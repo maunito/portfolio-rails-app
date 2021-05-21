@@ -9,6 +9,7 @@
   // border-bottom: 1px solid white;
   // transition: 0.3s;
 
+
   p {
     color: white;
     text-align: center;
@@ -26,5 +27,15 @@
     }
   }
 
-}
+/* @media min width 401 is not on the same 
+level as max width 400 because .nameAndTitle
+is <p> itself while <span>s devel and oper are 
+direct children of the <p>  */
 
+  @media screen and (min-width: 401px) {
+    .nameAndTitle {
+      padding-top: 11px;
+    }
+  }
+
+}
