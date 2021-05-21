@@ -2,6 +2,7 @@
 body {
   background-color: #08090a;
   font-family: 'Raleway', sans-serif;
+  cursor: default;
 }
 
 
@@ -43,9 +44,9 @@ body {
 
     p {
       position: relative;
-      top: 43%;
+      top: 44%;
       text-align: right;
-      text-shadow: 1px 1px 6px black;
+      text-shadow: -5px -4px 6px black;
     }
   }
   
@@ -59,7 +60,7 @@ body {
       top: 45%;
       text-align: left;
       margin-left: -6px;
-      text-shadow: 1px 1px 10px white;
+      text-shadow: 4px 4px 7px white;
       #l {
         font-style: italic;
       }
