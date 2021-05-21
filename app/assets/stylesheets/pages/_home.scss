@@ -42,8 +42,9 @@ body {
 
     p {
       position: relative;
-      top: 50%;
+      top: 45%;
       text-align: right;
+      text-shadow: 1px 1px 7px black;
     }
   }
   
@@ -52,30 +53,12 @@ body {
     color: #f4faff;
     width: 50%;
 
-    // .maurice {
-    //   text-align: right;
-    //   letter-spacing: 3.5px;
-    //   position: absolute;
-    //   top: 10%;
-    //   right: 0;
-    //   font-size: 100;
-    // }
-
-    // .sattrasai {
-    //   float: right;
-    //   text-align: right;
-    //   text-orientation: upright;
-    //   writing-mode: vertical-lr;
-    //   position: absolute;
-    //   top: 17%;
-    //   right: 0;
-    // }
-
     .llo {
       position: relative;
-      top: 50%;
+      top: 45%;
       text-align: left;
       margin-left: -5px;
+      text-shadow: 1px 1px 10px white;
       #l {
         text-shadow: 1px 1px 10px black;
       }
