@@ -25,6 +25,7 @@ body {
     // text-shadow: 1px 1px #f4faff;
     font-size: xx-large;
     letter-spacing: 13px;
+    margin-right: -3px;
   }
 }
 
@@ -42,7 +43,7 @@ body {
 
     p {
       position: relative;
-      top: 45%;
+      top: 43%;
       text-align: right;
       text-shadow: 1px 1px 7px black;
     }
@@ -57,10 +58,11 @@ body {
       position: relative;
       top: 45%;
       text-align: left;
-      margin-left: -5px;
+      margin-left: -4px;
       text-shadow: 1px 1px 10px white;
       #l {
-        text-shadow: 1px 1px 10px black;
+        
+        font-style: italic;
       }
     }
 
