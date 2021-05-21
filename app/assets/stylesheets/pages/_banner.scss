@@ -17,6 +17,11 @@
     @media screen and (max-width: 400px) {
       #devel {
         color: #08090a;
+        text-shadow: 0.5px 0.5px 1px white;
+      }
+
+      #oper {
+        text-shadow: 0.5px 0.5px 1px black;
       }
     }
   }
