@@ -74,8 +74,13 @@ body {
     .llo {
       position: relative;
       top: 50%;
-      text-align: left;      
+      text-align: left;
+      margin-left: -5px;
+      #l {
+        text-shadow: 1px 1px 10px black;
+      }
     }
+
   }
 }
 
