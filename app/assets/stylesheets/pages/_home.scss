@@ -24,7 +24,7 @@ body {
   p {
     // text-shadow: 1px 1px #f4faff;
     font-size: xx-large;
-    letter-spacing: 13px;
+    letter-spacing: 9px;
     margin-right: -3px;
   }
 }
@@ -45,7 +45,7 @@ body {
       position: relative;
       top: 43%;
       text-align: right;
-      text-shadow: 1px 1px 7px black;
+      text-shadow: 1px 1px 6px black;
     }
   }
   
@@ -58,10 +58,9 @@ body {
       position: relative;
       top: 45%;
       text-align: left;
-      margin-left: -4px;
+      margin-left: -6px;
       text-shadow: 1px 1px 10px white;
       #l {
-        
         font-style: italic;
       }
     }
@@ -72,7 +71,7 @@ body {
 
 
 
-.name {
+.someText {
   background-color: #f4faff;
   color: #08090a;
   height: 50px;
