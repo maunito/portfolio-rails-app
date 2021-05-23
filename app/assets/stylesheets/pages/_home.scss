@@ -10,7 +10,7 @@ body {
 
 
 .section {
-  height: 550px;
+  height: 600;
   width: 100%;
 }
 
@@ -44,9 +44,9 @@ body {
 
     p {
       position: relative;
-      top: 44%;
+      top: 45%;
       text-align: right;
-      text-shadow: -5px -4px 6px black;
+      padding-right: 6px;
     }
   }
   
@@ -59,10 +59,9 @@ body {
       position: relative;
       top: 45%;
       text-align: left;
-      margin-left: -6px;
-      text-shadow: 4px 4px 7px white;
+      margin-left: -4.4px;
       #l {
-        font-style: italic;
+        text-shadow: -1px 0px 8px black;
       }
     }
 
