@@ -53,6 +53,7 @@ document.getElementById("he").addEventListener("click", function() {
     he.innerHTML = "HE"
   };
 
+  // why the fuck doesn´t this one work !? 
   if (left.style.backgroundColor === "#f4faff") {
     left.style.backgroundColor = "#08090a";
   } else {
