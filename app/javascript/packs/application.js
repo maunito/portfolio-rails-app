@@ -35,3 +35,32 @@ document.addEventListener('turbolinks:load', () => {
 
 
 // auf dieser Seite Javascript Functionen einfügen
+
+
+// function change_text() {
+//   document.getElementById("he").innerHTML = "wo";
+// };
+
+// change_text();
+
+document.getElementById("he").addEventListener("click", function() {
+  var he = document.getElementById("he");
+  var left = document.getElementById("left");
+
+  if (he.innerHTML === "HE") {
+    he.innerHTML = "WO";
+  } else {
+    he.innerHTML = "HE"
+  };
+
+  if (left.style.backgroundColor === "#f4faff") {
+    left.style.backgroundColor = "#08090a";
+  } else {
+    left.backgroundColor = "#f4faff";
+  };
+
+  // left.style.backgroundColor = "#08090a";
+
+    
+});
+

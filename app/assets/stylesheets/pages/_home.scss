@@ -10,7 +10,6 @@ body {
 
 
 .section {
-  height: 600;
   width: 100%;
 }
 
@@ -34,14 +33,27 @@ body {
 
 
 
-.d-flex {
-  height: 550px;
+.black-and-white-container {
+  height: 620px;
 
-  .left {
+  #left {
     background-color: #f4faff;
     color: black;
     width: 50%;
+  }
 
+  #right {
+    background-color: #08090a;
+    color: #f4faff;
+    width: 50%;
+  }
+
+
+}
+  
+
+#greeting {
+  #left {
     p {
       position: relative;
       top: 45%;
@@ -49,12 +61,8 @@ body {
       padding-right: 6px;
     }
   }
-  
-  .right {
-    background-color: #08090a;
-    color: #f4faff;
-    width: 50%;
 
+  #right {
     .llo {
       position: relative;
       top: 45%;
@@ -64,10 +72,8 @@ body {
         text-shadow: -1px 0px 8px black;
       }
     }
-
   }
 }
-
 
 
 
@@ -78,6 +84,10 @@ body {
   font-size: x-large;
   text-align: center;
   letter-spacing:20px;
+
+  p {
+    padding-top: 6px;
+  }
 }
 
 
