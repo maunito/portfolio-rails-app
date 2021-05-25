@@ -15,8 +15,13 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+//----------------------------------------------
+// You can also use it via CSS, which I find convenient and familiar to the glyph icon support of old. First, add bootstrap-icons:
 
+// yarn add bootstrap-icons
+// Then, simply import it in your application.js file:
 
+import 'bootstrap-icons/font/bootstrap-icons.css'
 // ----------------------------------------------------
 // Note(lewagon): ABOVE IS RAILS DEFAULT CONFIGURATION
 // WRITE YOUR OWN JS STARTING FROM HERE 👇
@@ -36,32 +41,45 @@ document.addEventListener('turbolinks:load', () => {
 
 // auf dieser Seite Javascript Functionen einfügen
 
+// die untenstehenden Funktionen werden gebraucht um greeting von he auf wo zu ändern und ein Versuch, die Hintergundfarbe on click zu wechseln.
 
-// function change_text() {
-//   document.getElementById("he").innerHTML = "wo";
-// };
 
-// change_text();
+// document.getElementById("he").addEventListener("click", function() {
+//   var he = document.getElementById("he");
+//   var left = document.getElementById("left");
 
-document.getElementById("he").addEventListener("click", function() {
-  var he = document.getElementById("he");
-  var left = document.getElementById("left");
+//   if (he.innerHTML === "HE") {
+//     he.innerHTML = "WO";
+//   } else {
+//     he.innerHTML = "HE"
+//   };
 
-  if (he.innerHTML === "HE") {
-    he.innerHTML = "WO";
-  } else {
-    he.innerHTML = "HE"
-  };
+//   // why the fuck doesn´t this one work !? 
+//   if (left.style.backgroundColor === "#f4faff") {
+//     left.style.backgroundColor = "#08090a";
+//   } else {
+//     left.backgroundColor = "#f4faff";
+//   };
 
-  // why the fuck doesn´t this one work !? 
-  if (left.style.backgroundColor === "#f4faff") {
-    left.style.backgroundColor = "#08090a";
-  } else {
-    left.backgroundColor = "#f4faff";
-  };
+//   // left.style.backgroundColor = "#08090a";
 
-  // left.style.backgroundColor = "#08090a";
+    
+// });
+
+
+document.getElementById("bi").addEventListener("click", function() {
+
+  document.getElementById("nameAndTitle").style.color = "#f4faff";
+  document.getElementById("left").style.backgroundColor = "#f4faff";
+  document.getElementById("right").style.color = "#f4faff";
+  document.getElementById("someText").style.backgroundColor = "#f4faff";
+  document.getElementById("two").style.backgroundColor = "#f4faff";
+  document.getElementById("bavarian").style.color = "#f4faff";  
+
+  
+  
 
     
 });
+
 

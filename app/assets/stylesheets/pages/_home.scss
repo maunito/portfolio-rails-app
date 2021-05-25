@@ -1,9 +1,11 @@
 // Specific CSS for your home-page
 body {
   background-color: #08090a;
+  color: #08090a;
   font-family: 'Raleway', sans-serif;
   cursor: default;
 }
+
 
 
 
@@ -17,7 +19,7 @@ body {
 
 
 
-#one {
+.one {
   background-color: #08090a;
   color: #f4faff;  
 
@@ -37,14 +39,14 @@ body {
   height: 620px;
 
   #left {
-    background-color: #f4faff;
-    color: black;
+    background-color: #08090a;
+    color: #08090a;
     width: 50%;
   }
 
   #right {
     background-color: #08090a;
-    color: #f4faff;
+    color: #08090a;
     width: 50%;
   }
 
@@ -77,8 +79,8 @@ body {
 
 
 
-.someText {
-  background-color: #f4faff;
+#someText {
+  background-color: #08090a;
   color: #08090a;
   height: 50px;
   font-size: x-large;
@@ -94,12 +96,12 @@ body {
 
 
 #two {
-  background-color: #f4faff;
+  background-color: #08090a;
 }
 
 #three {
   // background-color: #59A5D8;
-  background-color: black;
+  background-color: #08090a;
   border-bottom: 0.5px solid #f4faff;
 
   .videoWrapper {
@@ -109,7 +111,7 @@ body {
   }
 
   h2 {
-    color: #f4faff;
+    color: #08090a;
     text-align: center;
     // text-orientation: upright;
     // writing-mode: vertical-lr;
@@ -127,7 +129,7 @@ body {
     text-shadow: 1.2px 1.2px #FB9C0F;
   }
 
-  .bavarian:hover {
+  #bavarian:hover {
     text-decoration: none;
   }
 
