@@ -32,6 +32,19 @@ body {
 }
 
 
+// this is the lightbulb:
+#bi {
+  position: absolute;
+  color: #f4faff;
+  z-index: 5000;
+  // text-shadow: 2px 2px 5px black;
+  left: 25%;
+  top: 60%;
+  height: 30px;
+  width: 30px;
+  transform: rotateY(0deg) rotate(180deg); /* needs Y at 0 deg to behave properly*/
+}
+
 
 
 
@@ -90,6 +103,7 @@ body {
   p {
     padding-top: 6px;
   }
+
 }
 
 
