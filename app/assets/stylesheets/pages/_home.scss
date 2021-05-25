@@ -52,14 +52,18 @@ body {
   height: 620px;
 
   #left {
-    background-color: #08090a;
+    // The commented out line would be needed for lightbulb effect
+    // background-color: #08090a;
+    background-color: #f4faff;
     color: #08090a;
     width: 50%;
   }
 
   #right {
+    // The commented out line would be needed for lightbulb effect
+    // color: #08090a;
     background-color: #08090a;
-    color: #08090a;
+    color: #f4faff;
     width: 50%;
   }
 
@@ -93,7 +97,9 @@ body {
 
 
 #someText {
-  background-color: #08090a;
+  // The commented out line would be needed for lightbulb effect
+  // background-color: #08090a;
+  background-color: #f4faff;
   color: #08090a;
   height: 50px;
   font-size: x-large;
@@ -110,7 +116,9 @@ body {
 
 
 #two {
-  background-color: #08090a;
+  // The commented out line would be needed for lightbulb effect
+  // background-color: #08090a;
+  background-color: #f4faff;
 }
 
 #three {

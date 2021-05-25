@@ -67,6 +67,7 @@ document.addEventListener('turbolinks:load', () => {
 // });
 
 
+// lightbulb effect currently not used
 document.getElementById("bi").addEventListener("click", function() {
 
   document.getElementById("nameAndTitle").style.color = "#f4faff";
@@ -75,10 +76,6 @@ document.getElementById("bi").addEventListener("click", function() {
   document.getElementById("someText").style.backgroundColor = "#f4faff";
   document.getElementById("two").style.backgroundColor = "#f4faff";
   document.getElementById("bavarian").style.color = "#f4faff";  
-
-  
-  
-
     
 });
 
