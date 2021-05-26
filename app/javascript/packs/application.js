@@ -73,7 +73,7 @@ document.getElementById("bi").addEventListener("click", function() {
   document.getElementById("nameAndTitle").style.color = "#f4faff";
   document.getElementById("left").style.backgroundColor = "#f4faff";
   document.getElementById("right").style.color = "#f4faff";
-  document.getElementById("someText").style.backgroundColor = "#f4faff";
+  document.getElementById("projects").style.backgroundColor = "#f4faff";
   document.getElementById("two").style.backgroundColor = "#f4faff";
   document.getElementById("bavarian").style.color = "#f4faff";  
     

@@ -10,7 +10,6 @@ body {
 
 
 
-
 .section {
   width: 100%;
 }
@@ -71,6 +70,9 @@ body {
 }
   
 
+
+
+
 #greeting {
   #left {
     p {
@@ -86,7 +88,7 @@ body {
       position: relative;
       top: 45%;
       text-align: left;
-      margin-left: -4.4px;
+      margin-left: -4.5px;
       #l {
         text-shadow: -1px 0px 8px black;
       }
@@ -96,7 +98,7 @@ body {
 
 
 
-#someText {
+#projects {
   // The commented out line would be needed for lightbulb effect
   // background-color: #08090a;
   background-color: #f4faff;
@@ -136,14 +138,15 @@ body {
   h2 {
     color: #f4faff;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
     // text-orientation: upright;
     // writing-mode: vertical-lr;
     text-shadow: 1px 1px black;
     font-size: larger;
     z-index: 2;
-    margin-top: 20%;
+    margin-top: 20px;
     transition: 0.5s;
-    font-size: x-large;
+    font-size: large;
     letter-spacing: 20px;
   }
 
@@ -151,6 +154,7 @@ body {
     font-weight: none;
     color: #59A5D8;
     text-shadow: 1.2px 1.2px #FB9C0F;
+    font-size: x-large;
   }
 
   #bavarian:hover {
