@@ -134,7 +134,7 @@ body {
   }
 
   h2 {
-    color: #08090a;
+    color: #f4faff;
     text-align: center;
     // text-orientation: upright;
     // writing-mode: vertical-lr;
@@ -143,7 +143,8 @@ body {
     z-index: 2;
     margin-top: 20%;
     transition: 0.5s;
-    font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 20px;
   }
 
   h2:hover {
@@ -166,11 +167,11 @@ body {
     margin-bottom: 5%;
   }
 
-  img {
-    width: 50%;
-    height: 65%;
-    z-index: 1;
-  }
+  // img {
+  //   width: 50%;
+  //   height: 65%;
+  //   z-index: 1;
+  // }
 }
 
 
