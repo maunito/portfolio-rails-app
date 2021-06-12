@@ -6,6 +6,15 @@ body {
   cursor: default;
 }
 
+// to prevent the hello to be highlighted when switching the lights
+.disable-select {
+  user-select: none; /* supported by Chrome and Opera */
+ -webkit-user-select: none; /* Safari */
+ -khtml-user-select: none; /* Konqueror HTML */
+ -moz-user-select: none; /* Firefox */
+ -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
 
 
 
@@ -29,6 +38,7 @@ body {
     margin-right: -3px;
   }
 }
+
 
 
 // this is the lightbulb:
@@ -137,13 +147,6 @@ body {
     transition: 0.5s;
     font-size: large;
     letter-spacing: 20px;
-  }
-
-  h2:hover {
-    font-weight: none;
-    color: #59A5D8;
-    text-shadow: 1.2px 1.2px #FB9C0F;
-    font-size: x-large;
   }
 
   #no-underline {

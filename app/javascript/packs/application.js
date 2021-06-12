@@ -65,18 +65,31 @@ document.addEventListener('turbolinks:load', () => {
 
     
 // });
+var state = "black"
 
 
-// lightbulb effect currently not used
 document.getElementById("bi").addEventListener("click", function() {
-
-  document.getElementById("nameAndTitle").style.color = "#f4faff";
-  document.getElementById("left").style.backgroundColor = "#f4faff";
-  document.getElementById("right").style.color = "#f4faff";
-  document.getElementById("bi").style.cursor = "auto";
-  document.getElementById("projects").style.backgroundColor = "#f4faff";
-  document.getElementById("bavarian-section").style.color = "#f4faff";
-  document.getElementById("bavarian-section").style.color = "#f4faff";  
+  var left = document.getElementById("left");
+  var right = document.getElementById("right");
+  var projects = document.getElementById("projects");
+  var bavarianSection = document.getElementById("bavarian-section");
+  
+  if (state == "white") {
+    left.style.backgroundColor = "#08090a"
+    right.style.color = "#08090a";
+    projects.style.backgroundColor = "#08090a";
+    bavarianSection.style.color = "#08090a";
+    state = "black"
+  } else {
+    left.style.backgroundColor = "#f4faff"
+    right.style.color = "#f4faff";
+    projects.style.backgroundColor = "#f4faff";
+    bavarianSection.style.color = "#f4faff";
+    state = "white"
+  }
+  
+  
+    
 
     
 });
