@@ -33,16 +33,14 @@ body {
 
 // this is the lightbulb:
 #bi {
-  position: absolute;
   color: #f4faff;
   z-index: 5000;
   // text-shadow: 2px 2px 5px black;
-  left: 46.9%;
-  top: 60%;
   height: 30px;
   width: 30px;
   transform: rotateY(0deg) rotate(180deg); /* needs Y at 0 deg to behave properly*/
   cursor: pointer;
+  margin-left: -4px;
 }
 
 
@@ -100,8 +98,8 @@ body {
 
 #projects {
   // The commented out line would be needed for lightbulb effect
-  // background-color: #08090a;
-  background-color: #f4faff;
+  background-color: #08090a;
+  // background-color: #f4faff;
   color: #08090a;
   height: 50px;
   font-size: x-large;
