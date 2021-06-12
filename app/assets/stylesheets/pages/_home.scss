@@ -18,7 +18,7 @@ body {
 
 
 
-.one {
+.first-section {
   background-color: #08090a;
   color: #f4faff;  
 
@@ -107,7 +107,6 @@ body {
   font-size: x-large;
   text-align: center;
   letter-spacing:20px;
-
   p {
     padding-top: 6px;
   }
@@ -116,14 +115,7 @@ body {
 
 
 
-
-#two {
-  // The commented out line would be needed for lightbulb effect
-  // background-color: #08090a;
-  background-color: #f4faff;
-}
-
-#three {
+#bavarian-section {
   // background-color: #59A5D8;
   background-color: #08090a;
   border-bottom: 0.5px solid #f4faff;
@@ -143,7 +135,6 @@ body {
     // writing-mode: vertical-lr;
     text-shadow: 1px 1px black;
     font-size: larger;
-    z-index: 2;
     margin-top: 20px;
     transition: 0.5s;
     font-size: large;
@@ -157,11 +148,11 @@ body {
     font-size: x-large;
   }
 
-  #bavarian:hover {
+  #no-underline {
     text-decoration: none;
   }
 
-  video {
+  .video {
     margin: 0 auto;
     height: 100%;
     width: 80%;
@@ -171,19 +162,24 @@ body {
     margin-bottom: 5%;
   }
 
-  // img {
-  //   width: 50%;
-  //   height: 65%;
-  //   z-index: 1;
-  // }
+}
+
+#bavarian-section:hover {
+  h2 {
+    font-weight: none;
+    color: #59A5D8;
+    text-shadow: 1.2px 1.2px #FB9C0F;
+    font-size: x-large;
+  }
 }
 
 
 
 
-#four {
+#finport-section {
   border-top: 0.5px solid #f4faff;
-  color: #627585;
+  color: #f4faff;
+  z-index: 3;
 
   h2 {
     color: #f4faff;
@@ -212,6 +208,18 @@ body {
 
   #finport:hover {
     text-decoration: none;
+  }
+}
+
+#finport-section:hover {
+  h2 {
+    font-weight: none;
+    color: rgba(126, 107, 143,0.66);
+    text-shadow: 1.2px 1.2px white;
+    font-size: x-large;
+    font-family: 'Sonsie One', cursive;
+    letter-spacing: normal;
+    text-transform: lowercase;
   }
 }
 

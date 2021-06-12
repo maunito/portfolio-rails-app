@@ -1,4 +1,4 @@
-<div class="section one">
+<div class="section first-section">
   <div class="d-flex black-and-white-container" id="greeting">
     <div id="left">
       <p class="noselect" id="he">HE</p>
@@ -14,25 +14,17 @@
   <p>PROJECTS</p>
 </div>
 
-<div class="section" id="two">
-  <div class="d-flex black-and-white-container">
-    <div class="left">
-    </div>
-    <div class="right">
-    </div>
-  </div>
-</div>
 
-<div class="section" id="three">
+<div class="section" id="bavarian-section">
   <div class="videoWrapper d-flex">
-    <%= link_to "http://www.bayerisch.xyz", target: :_blank, id: "bavarian"  do %>
+    <%= link_to "http://www.bayerisch.xyz", target: :_blank, id: "no-underline"  do %>
       <h2>BAVARIAN FOODBLOG</h2>
     <% end %>
     <%= video_tag "foodblog.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, class: "video" %>
   </div>
 </div>
 
-<div class="section container-fluid" id="four">
+<div class="section container-fluid" id="finport-section">
 
    <%= link_to "http://www.finport.fun", target: :_blank, id: "finport"  do %>
       <h2>FINPORT</h2>
