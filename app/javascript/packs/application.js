@@ -65,7 +65,7 @@ document.addEventListener('turbolinks:load', () => {
 
     
 // });
-var state = "black"
+var state = "initial"
 
 
 document.getElementById("bi").addEventListener("click", function() {
@@ -74,18 +74,38 @@ document.getElementById("bi").addEventListener("click", function() {
   var projects = document.getElementById("projects");
   var bavarianSection = document.getElementById("bavarian-section");
   
-  if (state == "white") {
-    left.style.backgroundColor = "#08090a"
-    right.style.color = "#08090a";
+  if (state == "initial") {
+    left.style.backgroundColor = "#08090a";
+    left.style.color = "#f4faff"
+    right.style.color = "#f4faff";
     projects.style.backgroundColor = "#08090a";
     bavarianSection.style.color = "#08090a";
-    state = "black"
+
+    document.getElementById("he").innerHTML = "HI"
+    document.getElementById("l").innerHTML = "R"
+    document.getElementById("lo").innerHTML = "E"
+
+    state = "secondary"
+
+  } else if (state == "secondary") {
+    document.getElementById("he").innerHTML = "M"
+    document.getElementById("l").innerHTML = "E"
+    document.getElementById("lo").innerHTML = "!"
+  
+    state = "tertiary"  
+
   } else {
     left.style.backgroundColor = "#f4faff"
-    right.style.color = "#f4faff";
-    projects.style.backgroundColor = "#f4faff";
-    bavarianSection.style.color = "#f4faff";
-    state = "white"
+    left.style.color = "#08090a"
+    right.style.color = "#f4faff"
+    projects.style.backgroundColor = "#f4faff"
+    bavarianSection.style.color = "#f4faff"
+
+    document.getElementById("he").innerHTML = "HE"
+    document.getElementById("l").innerHTML = "L"
+    document.getElementById("lo").innerHTML = "LO"
+
+    state = "initial"
   }
   
   

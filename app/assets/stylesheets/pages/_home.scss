@@ -43,9 +43,12 @@ body {
 
 // this is the lightbulb:
 #bi {
+  position: absolute;
+  right: 30%;
+  top: 30%;
   color: #f4faff;
   z-index: 5000;
-  // text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 5px black;
   height: 30px;
   width: 30px;
   transform: rotateY(0deg) rotate(180deg); /* needs Y at 0 deg to behave properly*/
@@ -61,7 +64,7 @@ body {
 
   #left {
     // The commented out line would be needed for lightbulb effect
-    background-color: #08090a;
+    background-color: #f4faff;
     // background-color: #f4faff;
     color: #08090a;
     width: 50%;
@@ -69,7 +72,7 @@ body {
 
   #right {
     // The commented out line would be needed for lightbulb effect
-    color: #08090a;
+    color: #f4faff;
     background-color: #08090a;
     width: 50%;
   }
