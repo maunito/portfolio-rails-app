@@ -1,0 +1,62 @@
+
+#finport-section {
+  border-top: 0.5px solid #f4faff;
+  color: #f4faff;
+  z-index: 3;
+
+  h2 {
+    color: #f4faff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    // text-orientation: upright;
+    // writing-mode: vertical-lr;
+    text-shadow: 1px 1px black;
+    font-size: larger;
+    z-index: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    font-size: large;
+    letter-spacing: 18px;
+  }
+
+  h2:hover {
+    font-weight: none;
+    color: rgba(126, 107, 143,0.66);
+    text-shadow: 1.2px 1.2px white;
+    font-size: x-large;
+    font-family: 'Sonsie One', cursive;
+    letter-spacing: normal;
+    text-transform: lowercase;
+  }
+
+  #finport:hover {
+    text-decoration: none;
+  }
+}
+
+#finport-section:hover {
+  h2 {
+    font-weight: none;
+    color: rgba(126, 107, 143,0.66);
+    text-shadow: 1.2px 1.2px white;
+    font-size: x-large;
+    font-family: 'Sonsie One', cursive;
+    letter-spacing: normal;
+    text-transform: lowercase;
+  }
+}
+
+.finport-image-container {
+  width: 180px;
+  height: 450px;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  border-radius: 25px;
+  box-shadow: 20px 20px 20px rgba(0,0,0,0.25), 20px 20px 20px rgba(0,0,0,0.22);
+  transition: 0.5s;
+  z-index: 0;
+  p {
+    text-align: center;
+  }
+}

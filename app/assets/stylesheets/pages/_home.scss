@@ -15,30 +15,14 @@ body {
  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
-
-
+#no-underline {
+  text-decoration: none;
+}
 
 
 .section {
   width: 100%;
 }
-
-
-
-
-
-.first-section {
-  background-color: #08090a;
-  color: #f4faff;  
-
-  p {
-    // text-shadow: 1px 1px #f4faff;
-    font-size: xx-large;
-    letter-spacing: 9px;
-    margin-right: -3px;
-  }
-}
-
 
 
 // this is the lightbulb:
@@ -56,57 +40,21 @@ body {
   margin-left: -4px;
 }
 
-
-
-
-.black-and-white-container {
-  height: 620px;
-
-  #left {
-    // The commented out line would be needed for lightbulb effect
-    background-color: #f4faff;
-    // background-color: #f4faff;
-    color: #08090a;
-    width: 50%;
-  }
-
-  #right {
-    // The commented out line would be needed for lightbulb effect
-    color: #f4faff;
-    background-color: #08090a;
-    width: 50%;
-  }
-
-
-}
-  
-
-
-
-
-#greeting {
-  #left {
-    p {
-      position: relative;
-      top: 45%;
-      text-align: right;
-      padding-right: 6px;
-    }
-  }
-
-  #right {
-    .llo {
-      position: relative;
-      top: 45%;
-      text-align: left;
-      margin-left: -4.5px;
-      #l {
-        text-shadow: -1px 0px 8px black;
-      }
-    }
-  }
+.icon-wrapper {
+  flex-direction: row;
+  margin-bottom: 20px;
 }
 
+
+.icon-github {
+  color: white;
+  margin: 10px;
+}
+
+.bi-link {
+  color: white;
+  margin: 10px;
+}
 
 
 #projects {
@@ -122,122 +70,4 @@ body {
     padding-top: 6px;
   }
 
-}
-
-
-
-#bavarian-section {
-  // background-color: #59A5D8;
-  background-color: #08090a;
-  border-bottom: 0.5px solid #f4faff;
-
-  .videoWrapper {
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 80%;
-  }
-
-  h2 {
-    color: #f4faff;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    // text-orientation: upright;
-    // writing-mode: vertical-lr;
-    text-shadow: 1px 1px black;
-    font-size: larger;
-    margin-top: 20px;
-    transition: 0.5s;
-    font-size: large;
-    letter-spacing: 20px;
-  }
-
-  #no-underline {
-    text-decoration: none;
-  }
-
-  .video {
-    margin: 0 auto;
-    height: 100%;
-    width: 80%;
-    z-index: 2;
-    left: 10%;
-    border-radius: 25px;
-    margin-bottom: 5%;
-  }
-
-}
-
-#bavarian-section:hover {
-  h2 {
-    font-weight: none;
-    color: #59A5D8;
-    text-shadow: 1.2px 1.2px #FB9C0F;
-    font-size: x-large;
-  }
-}
-
-
-
-
-#finport-section {
-  border-top: 0.5px solid #f4faff;
-  color: #f4faff;
-  z-index: 3;
-
-  h2 {
-    color: #f4faff;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    // text-orientation: upright;
-    // writing-mode: vertical-lr;
-    text-shadow: 1px 1px black;
-    font-size: larger;
-    z-index: 2;
-    margin-top: 20px;
-    transition: 0.5s;
-    font-size: large;
-    letter-spacing: 18px;
-  }
-
-  h2:hover {
-    font-weight: none;
-    color: rgba(126, 107, 143,0.66);
-    text-shadow: 1.2px 1.2px white;
-    font-size: x-large;
-    font-family: 'Sonsie One', cursive;
-    letter-spacing: normal;
-    text-transform: lowercase;
-  }
-
-  #finport:hover {
-    text-decoration: none;
-  }
-}
-
-#finport-section:hover {
-  h2 {
-    font-weight: none;
-    color: rgba(126, 107, 143,0.66);
-    text-shadow: 1.2px 1.2px white;
-    font-size: x-large;
-    font-family: 'Sonsie One', cursive;
-    letter-spacing: normal;
-    text-transform: lowercase;
-  }
-}
-
-.finport-image-container {
-  width: 180px;
-  height: 480px;
-  margin: 0 auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  border-radius: 25px;
-  box-shadow: 20px 20px 20px rgba(0,0,0,0.25), 20px 20px 20px rgba(0,0,0,0.22);
-  transition: 0.5s;
-  z-index: 0;
-  p {
-    text-align: center;
-  }
 }

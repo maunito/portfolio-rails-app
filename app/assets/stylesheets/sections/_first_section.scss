@@ -1,0 +1,58 @@
+
+.first-section {
+  background-color: #08090a;
+  color: #f4faff;  
+
+  p {
+    // text-shadow: 1px 1px #f4faff;
+    font-size: xx-large;
+    letter-spacing: 9px;
+    margin-right: -3px;
+  }
+}
+
+
+.black-and-white-container {
+  height: 620px;
+
+  #left {
+    // The commented out line would be needed for lightbulb effect
+    background-color: #f4faff;
+    // background-color: #f4faff;
+    color: #08090a;
+    width: 50%;
+  }
+
+  #right {
+    // The commented out line would be needed for lightbulb effect
+    color: #f4faff;
+    background-color: #08090a;
+    width: 50%;
+  }
+
+
+}
+
+
+#greeting {
+  #left {
+    p {
+      position: relative;
+      top: 45%;
+      text-align: right;
+      padding-right: 6px;
+    }
+  }
+
+  #right {
+    .llo {
+      position: relative;
+      top: 45%;
+      text-align: left;
+      margin-left: -4.5px;
+      #l {
+        text-shadow: -1px 0px 8px black;
+      }
+    }
+  }
+}
