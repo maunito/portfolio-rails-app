@@ -17,22 +17,30 @@
 
 <div class="section" id="bavarian-section">
   <div class="videoWrapper d-flex">
-    <%= link_to "http://www.bayerisch.xyz", target: :_blank, id: "no-underline"  do %>
-      <h2>BAYERISCH!</h2>
-    <% end %>
+    <h2>BAYERISCH!</h2>
     <div class="dflex icon-wrapper">
-      <i class="bi bi-github icon-github"></i>
-      <i class="bi bi-link"></i>
+      <%= link_to "https://github.com/maunito/foodblog", target: :_blank, id: "no-underline"  do %>
+        <i class="bi bi-github icon-github"></i>
+      <% end %>
+      <%= link_to "https://www.bayerisch.xyz", target: :_blank, id: "no-underline"  do %>
+        <i class="bi bi-link"></i>
+      <% end %>
     </div>
     <%= video_tag "foodblog.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, class: "video" %>
   </div>
 </div>
 
 <div class="section container-fluid" id="finport-section">
-
-   <%= link_to "http://www.finport.fun", target: :_blank, id: "finport"  do %>
-      <h2>FINPORT</h2>
+  <h2>FINPORT</h2>
+  <div class="dflex icon-wrapper">
+    <%= link_to "https://github.com/Maiermag/FINPORT", target: :_blank, id: "no-underline"  do %>
+      <i class="bi bi-github icon-github"></i>
     <% end %>
+    <%= link_to "http://www.finport.fun", target: :_blank, id: "no-underline"  do %>
+      <i class="bi bi-link"></i>
+    <% end %>
+  </div>
+   
 
   <div class="row">
     <div class="col-sm">
