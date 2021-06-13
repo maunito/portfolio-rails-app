@@ -27,9 +27,6 @@ body {
 
 // this is the lightbulb:
 #bi {
-  position: absolute;
-  right: 30%;
-  top: 30%;
   color: #f4faff;
   z-index: 5000;
   text-shadow: 2px 2px 5px black;
@@ -37,7 +34,6 @@ body {
   width: 30px;
   transform: rotateY(0deg) rotate(180deg); /* needs Y at 0 deg to behave properly*/
   cursor: pointer;
-  margin-left: -4px;
 }
 
 .icon-wrapper {
