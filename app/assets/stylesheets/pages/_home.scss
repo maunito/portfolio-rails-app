@@ -68,8 +68,14 @@ body {
   font-size: x-large;
   text-align: center;
   letter-spacing:20px;
+  transition: 0.65s;
   p {
     padding-top: 6px;
   }
 
+}
+
+#projects:hover {
+  background-color: #f4faff;
+  color: #08090a;
 }

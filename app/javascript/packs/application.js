@@ -78,7 +78,6 @@ document.getElementById("bi").addEventListener("click", function() {
     left.style.backgroundColor = "#08090a";
     left.style.color = "#f4faff"
     right.style.color = "#f4faff";
-    projects.style.backgroundColor = "#08090a";
     bavarianSection.style.color = "#08090a";
 
     document.getElementById("he").innerHTML = "HI"
@@ -98,7 +97,6 @@ document.getElementById("bi").addEventListener("click", function() {
     left.style.backgroundColor = "#f4faff"
     left.style.color = "#08090a"
     right.style.color = "#f4faff"
-    projects.style.backgroundColor = "#f4faff"
     bavarianSection.style.color = "#f4faff"
 
     document.getElementById("he").innerHTML = "HE"
