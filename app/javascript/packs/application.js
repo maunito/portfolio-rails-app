@@ -124,7 +124,7 @@ window.onscroll = function() {
     he.classList.remove("japaneseWriting");
   }
 
-  if (window.scrollY > 550 ) {
+  if (window.scrollY > 550 && window.scrollY < 800 ) {
     document.getElementById("video").style.height = "120%"
     document.getElementById("video").style.width = "96%"
   } else {
