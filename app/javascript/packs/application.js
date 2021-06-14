@@ -67,7 +67,7 @@ document.addEventListener('turbolinks:load', () => {
 // });
 var state = "initial"
 
-
+// for the  light bulb effect...
 document.getElementById("bi").addEventListener("click", function() {
   var left = document.getElementById("left");
   var right = document.getElementById("right");
@@ -107,9 +107,20 @@ document.getElementById("bi").addEventListener("click", function() {
   }
   
   
-    
-
-    
 });
+
+var bavarian = document.getElementById("bavarian-section")
+var projects = document.getElementById("projects")
+
+
+window.onscroll = function() {
+  if (window.scrollY >= 450 && window.scrollY <= 700 ) {
+    bavarian.style.backgroundColor = "white"
+    projects.style.color ="black"
+
+  } else {
+    bavarian.style.backgroundColor = "black"
+  }
+};
 
 

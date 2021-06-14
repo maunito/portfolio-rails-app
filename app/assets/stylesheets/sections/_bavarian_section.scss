@@ -12,11 +12,6 @@
     transition: 0.65s;
   }
 
-  .videoWrapper:hover {
-    h2 {
-      text-shadow: 1px 1px black;
-    }
-  }
 
 
   h2 {
@@ -52,6 +47,7 @@
   h2 {
     font-weight: none;
     color: #59A5D8;
+    text-shadow: 1px 1px black;
     text-shadow: 1.2px 1.2px #FB9C0F;
     font-size: x-large;
   }
