@@ -111,16 +111,27 @@ document.getElementById("bi").addEventListener("click", function() {
 
 var bavarian = document.getElementById("bavarian-section")
 var projects = document.getElementById("projects")
+var he = document.getElementById("he");
 
 
 window.onscroll = function() {
-  if (window.scrollY >= 450 && window.scrollY <= 700 ) {
-    bavarian.style.backgroundColor = "white"
-    projects.style.color ="black"
+  if (window.scrollY > 80 ) {
+    he.innerHTML = "HIRE"
+    he.classList.add("japaneseWriting");
 
   } else {
-    bavarian.style.backgroundColor = "black"
+    he.innerHTML = "HE"
+    he.classList.remove("japaneseWriting");
+  }
+
+  if (window.scrollY > 550 ) {
+    document.getElementById("video").style.height = "120%"
+    document.getElementById("video").style.width = "96%"
+  } else {
+    document.getElementById("video").style.height = "100%"
+    document.getElementById("video").style.width = "80%"
   }
 };
+
 
 
