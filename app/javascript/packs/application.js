@@ -112,8 +112,9 @@ document.getElementById("bi").addEventListener("click", function() {
 var bavarian = document.getElementById("bavarian-section")
 var projects = document.getElementById("projects")
 var he = document.getElementById("he");
+var video = document.getElementById("video");
 
-
+// for scrolling effects "hello" and bavarian video size
 window.onscroll = function() {
   if (window.scrollY > 80 ) {
     he.innerHTML = "HIRE"
@@ -125,11 +126,11 @@ window.onscroll = function() {
   }
 
   if (window.scrollY > 550 && window.scrollY < 800 ) {
-    document.getElementById("video").style.height = "120%"
-    document.getElementById("video").style.width = "96%"
+    video.style.height = "120%"
+    video.style.width = "96%"
   } else {
-    document.getElementById("video").style.height = "100%"
-    document.getElementById("video").style.width = "80%"
+    video.style.height = "100%"
+    video.style.width = "80%"
   }
 };
 
