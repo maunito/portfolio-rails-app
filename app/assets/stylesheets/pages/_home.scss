@@ -6,20 +6,36 @@ body {
   cursor: default;
 }
 
-.japaneseWriting {
-  writing-mode: vertical-lr;
-  text-orientation: upright;
-  position: relative;
-  top: 45%;
-  text-align: right;
-  padding-right: 6px;
-  right: 0%;
+.textAlignLeft {
+  text-align: left;
+  margin-left: 8%;
 }
 
-.japaneseWriting {
-  writing-mode: vertical-lr;
-  text-orientation: upright;
+.textAlignRight {
+  text-align: right;
 }
+
+.textShadowBlack {
+  text-shadow: -1px 0px 8px black;
+}
+
+.textShadowWhite {
+  text-shadow: -1px 0px 8px #f4faff;
+}
+// .japaneseWriting {
+//   writing-mode: vertical-lr;
+//   text-orientation: upright;
+//   margin: 0;
+//   position: absolute;
+//   text-align: center;
+//   right: -70%;
+  
+// }
+
+#no-underline {
+  text-decoration: none;
+}
+
 
 // to prevent the hello to be highlighted when switching the lights
 .disable-select {
@@ -30,9 +46,15 @@ body {
  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
-#no-underline {
-  text-decoration: none;
-}
+// .marginRight {
+//   margin-right: 50px;
+// }
+
+
+
+
+
+
 
 
 .section {

@@ -7,7 +7,7 @@
     // text-shadow: 1px 1px #f4faff;
     font-size: xx-large;
     letter-spacing: 9px;
-    margin-right: -3px;
+    // margin-right: -3px;
   }
 }
 
@@ -21,6 +21,12 @@
     // background-color: #f4faff;
     color: #08090a;
     width: 50%;
+    text-align: center;
+    #he {
+      position: relative;
+      top: 45%;
+      padding-right: 6px;
+    }
   }
 
   #right {
@@ -28,31 +34,24 @@
     color: #f4faff;
     background-color: #08090a;
     width: 50%;
-  }
-
-
-}
-
-
-#greeting {
-  #left {
-    p {
-      position: relative;
-      top: 45%;
-      text-align: right;
-      padding-right: 6px;
-    }
-  }
-
-  #right {
+    text-align: center;;
     .llo {
       position: relative;
       top: 45%;
-      text-align: left;
       margin-left: -4.5px;
-      #l {
-        text-shadow: -1px 0px 8px black;
-      }
     }
   }
+
+
 }
+
+
+
+  
+
+#l {
+  text-align: left;
+  position: absolute;
+  left: -0.3%;
+}
+
