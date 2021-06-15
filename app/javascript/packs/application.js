@@ -84,32 +84,31 @@ document.getElementById("bi").addEventListener("click", function() {
   if (state == "initial") {
     left.style.backgroundColor = "#08090a";
     left.style.color = "#f4faff"
+    right.style.backgroundColor = "#08090a";
     right.style.color = "#f4faff";
-    bavarianSection.style.color = "#08090a";
-
-    leftText.innerHTML = "HI"
-    rightText.innerHTML = "E"
+    
 
     state = "secondary"
 
   } else if (state == "secondary") {
-    leftText.innerHTML = "M"
-    rightText.innerHTML = "!"
-  
-    state = "tertiary"  
-
-  } else {
-    left.style.backgroundColor = "#f4faff"
+    left.style.backgroundColor = "#f4faff";
     left.style.color = "#08090a"
-    right.style.color = "#f4faff"
-    bavarianSection.style.color = "#f4faff"
-
-    leftText.innerHTML = "HE"
+    right.style.backgroundColor = "#08090a";
+    right.style.color = "#f4faff";
   
-    rightText.innerHTML = "LO"
+    state = "initial"  
 
-    state = "initial"
   }
+
+  //upper } must be removed if else if is used
+  // } else {
+  //   left.style.backgroundColor = "#08090a";
+  //   left.style.color = "#f4faff"
+  //   right.style.backgroundColor = "#08090a";
+  //   right.style.color = "#f4faff";
+
+  //   state = "initial"
+  // }
   
   
 });
@@ -130,7 +129,7 @@ window.onscroll = function() {
 
     rightText.classList.remove("japaneseWriting")
 
-  } else if (window.scrollY > 80 && window.scrollY < 160 ) {
+  } else if (window.scrollY > 79 && window.scrollY < 160 ) {
     
       left.style.backgroundColor = "#08090a"
       left.style.color = "#f4faff"
