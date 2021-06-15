@@ -115,7 +115,7 @@ document.getElementById("bi").addEventListener("click", function() {
 
 
 
-// for scrolling effects "hello" and bavarian video size
+// for scrolling effects "h!" and bavarian video size
 window.onscroll = function() {
   if (window.scrollY < 80){
     left.style.backgroundColor = "#f4faff"
@@ -155,12 +155,8 @@ window.onscroll = function() {
     
     // leftText.innerHTML = "HIRE"
 
-  
-
-
-
 // bavarian video increase size
-  if (window.scrollY > 550 && window.scrollY < 800 ) {
+  if (window.scrollY > 550 && window.scrollY < 1050 ) {
     video.style.height = "120%"
     video.style.width = "96%"
   } else {
