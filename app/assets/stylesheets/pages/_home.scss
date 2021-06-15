@@ -22,15 +22,11 @@ body {
 .textShadowWhite {
   text-shadow: -1px 0px 8px #f4faff;
 }
-// .japaneseWriting {
-//   writing-mode: vertical-lr;
-//   text-orientation: upright;
-//   margin: 0;
-//   position: absolute;
-//   text-align: center;
-//   right: -70%;
-  
-// }
+
+.japaneseWriting {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
 
 #no-underline {
   text-decoration: none;
