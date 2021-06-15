@@ -70,13 +70,11 @@ var left = document.getElementById("left");
 var right = document.getElementById("right");
 var projects = document.getElementById("projects");
 var bavarianSection = document.getElementById("bavarian-section");
-var l = document.getElementById("l");
-var lo = document.getElementById("lo");
-var llo = document.getElementById("llo");
+var rightText = document.getElementById("rightText");
 
 var bavarian = document.getElementById("bavarian-section")
 var projects = document.getElementById("projects")
-var he = document.getElementById("he");
+var leftText = document.getElementById("leftText");
 var video = document.getElementById("video");
 
 // for the  light bulb effect...
@@ -89,16 +87,14 @@ document.getElementById("bi").addEventListener("click", function() {
     right.style.color = "#f4faff";
     bavarianSection.style.color = "#08090a";
 
-    he.innerHTML = "HI"
-    l.innerHTML = "R"
-    lo.innerHTML = "E"
+    leftText.innerHTML = "HI"
+    rightText.innerHTML = "E"
 
     state = "secondary"
 
   } else if (state == "secondary") {
-    he.innerHTML = "M"
-    l.innerHTML = "E"
-    lo.innerHTML = "!"
+    leftText.innerHTML = "M"
+    rightText.innerHTML = "!"
   
     state = "tertiary"  
 
@@ -108,9 +104,9 @@ document.getElementById("bi").addEventListener("click", function() {
     right.style.color = "#f4faff"
     bavarianSection.style.color = "#f4faff"
 
-    he.innerHTML = "HE"
-    l.innerHTML = "L"
-    lo.innerHTML = "LO"
+    leftText.innerHTML = "HE"
+  
+    rightText.innerHTML = "LO"
 
     state = "initial"
   }
@@ -122,35 +118,44 @@ document.getElementById("bi").addEventListener("click", function() {
 
 // for scrolling effects "hello" and bavarian video size
 window.onscroll = function() {
-  if (window.scrollY > 40 ) {
-    
-    he.classList.add("textAlignRight")
-    left.style.backgroundColor = "#08090a"
-    left.style.color = "#f4faff"
-    right.style.backgroundColor = "#f4faff"
-    right.style.color = "#08090a"
-    lo.classList.add("textAlignLeft")
-    l.style.color = "#f4faff"
-
-    
-    
-    // he.innerHTML = "HIRE"
-
-  } else {
-    he.classList.remove("textAlignRight")
+  if (window.scrollY < 60){
     left.style.backgroundColor = "#f4faff"
     left.style.color = "#08090a"
     right.style.backgroundColor = "#08090a"
     right.style.color = "#f4faff"
-    lo.classList.remove("textAlignLeft")
-    l.classList.add("textShadowBlack")
 
-    // he.innerHTML = "HE"
+
+    leftText.innerHTML = "H"
+    rightText.innerHTML = "!"
+
+    rightText.classList.remove("japaneseWriting")
+
+  } else if (window.scrollY > 60 && window.scrollY < 120 ) {
+    
+      left.style.backgroundColor = "#08090a"
+      left.style.color = "#f4faff"
+      right.style.backgroundColor = "#f4faff"
+      right.style.color = "#08090a"
+  
+      leftText.innerHTML ="H"
+      rightText.innerHTML = "!RE"
+
+      rightText.classList.remove("japaneseWriting")
+  
+
+  } else {
+    leftText.innerHTML = "ME"
+    rightText.innerHTML ="!"
+    
   }
+    
+    // leftText.innerHTML = "HIRE"
+
+  
 
 
 
-
+// bavarian video increase size
   if (window.scrollY > 550 && window.scrollY < 800 ) {
     video.style.height = "120%"
     video.style.width = "96%"
