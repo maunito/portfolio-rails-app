@@ -156,7 +156,7 @@ window.onscroll = function() {
     // leftText.innerHTML = "HIRE"
 
 // bavarian video increase size
-  if (window.scrollY > 550 && window.scrollY < 1050 ) {
+  if (window.scrollY > 550 && window.scrollY < 950 ) {
     video.style.height = "120%"
     video.style.width = "96%"
   } else {
