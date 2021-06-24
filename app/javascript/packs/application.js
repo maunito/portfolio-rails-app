@@ -129,27 +129,28 @@ window.onscroll = function() {
     leftText.innerHTML = "H"
     rightText.innerHTML = "!"
 
-    rightText.classList.remove("japaneseWriting")
+    // rightText.classList.remove("japaneseWriting")
 
   } else if (window.scrollY > 79 && window.scrollY < 160 ) {
       leftText.style.top = "55%"
       rightText.style.top = "55%"
+
       left.style.backgroundColor = "#08090a"
       left.style.color = "#f4faff"
-      right.style.backgroundColor = "#f4faff"
-      right.style.color = "#08090a"
-  
+
       leftText.innerHTML ="H"
       rightText.innerHTML = "!RE"
 
-      rightText.classList.remove("japaneseWriting")
+      // rightText.classList.add("japaneseWriting")
   
 
   } else {
     leftText.style.top = "70%"
     rightText.style.top = "70%"
-    left.style.backgroundColor = "#f4faff"
-    left.style.color = "#08090a"
+
+    left.style.backgroundColor = "#08090a"
+    left.style.color = "#f4faff"
+
     right.style.backgroundColor = "#08090a"
     right.style.color = "#f4faff"
 
@@ -158,7 +159,6 @@ window.onscroll = function() {
     
   }
     
-    // leftText.innerHTML = "HIRE"
 
 // bavarian video increase size
   if (window.scrollY > 550 && window.scrollY < 950 ) {
