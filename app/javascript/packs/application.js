@@ -117,14 +117,13 @@ document.getElementById("bi").addEventListener("click", function() {
 
 // for scrolling effects "h!" and bavarian video size
 window.onscroll = function() {
-  if (window.scrollY < 80 ){
+  if (window.scrollY < 80 || window.scrollY > 550 ){
+
+    projects.style.color = "#08090a"
+    projects.style.backgroundColor = "#08090a"
+
     leftText.style.top = "45%"
     rightText.style.top = "45%"
-    left.style.backgroundColor = "#f4faff"
-    left.style.color = "#08090a"
-    right.style.backgroundColor = "#08090a"
-    right.style.color = "#f4faff"
-
 
     leftText.innerHTML = "H"
     rightText.innerHTML = "!"
@@ -132,27 +131,31 @@ window.onscroll = function() {
     // rightText.classList.remove("japaneseWriting")
 
   } else if (window.scrollY > 79 && window.scrollY < 160 ) {
-      leftText.style.top = "55%"
-      rightText.style.top = "55%"
+    projects.style.color = "#08090a"
+    projects.style.backgroundColor = "#08090a"
 
-      left.style.backgroundColor = "#08090a"
-      left.style.color = "#f4faff"
+    leftText.style.top = "55%"
+    rightText.style.top = "55%"
 
-      leftText.innerHTML ="H"
-      rightText.innerHTML = "!RE"
+    // left.style.backgroundColor = "#08090a"
+    // left.style.color = "#f4faff"
 
-      // rightText.classList.add("japaneseWriting")
-  
+    leftText.innerHTML ="H"
+    rightText.innerHTML = "!RE"
+
+    // rightText.classList.add("japaneseWriting")
+
 
   } else {
+    if (window.scrollY > 360 ) {
+      projects.style.color = "#08090a"
+      projects.style.backgroundColor = "#f4faff"
+    }
+      
+      
     leftText.style.top = "70%"
     rightText.style.top = "70%"
 
-    left.style.backgroundColor = "#08090a"
-    left.style.color = "#f4faff"
-
-    right.style.backgroundColor = "#08090a"
-    right.style.color = "#f4faff"
 
     leftText.innerHTML = "ME"
     rightText.innerHTML ="!"
