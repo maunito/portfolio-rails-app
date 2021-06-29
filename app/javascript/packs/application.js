@@ -126,6 +126,8 @@ window.onscroll = function() {
     leftText.innerHTML = "H"
     rightText.innerHTML = "!"
 
+    contact.classList.add("displayNone")
+
   } else if (window.scrollY > 39 && window.scrollY < 80 ) {
 
     projects.style.color = "#08090a"
