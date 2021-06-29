@@ -118,38 +118,28 @@ document.getElementById("bi").addEventListener("click", function() {
 
 // for scrolling effects "h!" and bavarian video size
 window.onscroll = function() {
-  if (window.scrollY < 80 || window.scrollY > 550 ){
+  if (window.scrollY < 40 || window.scrollY > 550 ){
 
     projects.style.color = "#08090a"
     projects.style.backgroundColor = "#08090a"
-
-    leftText.style.top = "45%"
-    rightText.style.top = "45%"
 
     leftText.innerHTML = "H"
     rightText.innerHTML = "!"
 
-    // rightText.classList.remove("japaneseWriting")
+  } else if (window.scrollY > 39 && window.scrollY < 80 ) {
 
-  } else if (window.scrollY > 79 && window.scrollY < 160 ) {
     projects.style.color = "#08090a"
     projects.style.backgroundColor = "#08090a"
-
-    leftText.style.top = "45%"
-    rightText.style.top = "45%"
-
-    // left.style.backgroundColor = "#08090a"
-    // left.style.color = "#f4faff"
 
     leftText.innerHTML ="H"
     rightText.innerHTML = "!RE"
 
     contact.classList.add("displayNone")
 
-    // rightText.classList.add("japaneseWriting")
-
-
   } else {
+
+    leftText.innerHTML = "H!RE"
+    rightText.innerHTML ="ME !"
 
     if (window.scrollY > 200) {
       contact.classList.remove("displayNone")
@@ -162,15 +152,6 @@ window.onscroll = function() {
       contact.classList.add("displayNone")
     }
 
-    leftText.style.top = "45%"
-    rightText.style.top = "45%"
-
-
-    leftText.innerHTML = "H!RE"
-    rightText.innerHTML ="ME !"
-
-    
-    
   }
     
 
