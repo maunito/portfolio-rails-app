@@ -151,13 +151,15 @@ window.onscroll = function() {
 
   } else {
 
-    if (window.scrollY > 320) {
+    if (window.scrollY > 200) {
       contact.classList.remove("displayNone")
     }
+
 
     if (window.scrollY > 360 ) {
       projects.style.color = "#08090a"
       projects.style.backgroundColor = "#f4faff"
+      contact.classList.add("displayNone")
     }
 
     leftText.style.top = "45%"

@@ -2,7 +2,7 @@
 .first-section {
   background-color: #08090a;
   color: #f4faff; 
-  height: 630px; 
+  height: 540px; 
 
   p {
     // text-shadow: 1px 1px #f4faff;
@@ -46,13 +46,23 @@
 
 }
 
+
+
 #contact {
   text-align: center;
+  margin-top: -15%;
   p {
     font-size: large;
   }
 }
 
+@media screen and (max-width: 400px) {
+  #contact {
+    p {
+      font-size: smaller;
+    }
+  }
+}
 
 
 
