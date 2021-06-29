@@ -134,8 +134,8 @@ window.onscroll = function() {
     projects.style.color = "#08090a"
     projects.style.backgroundColor = "#08090a"
 
-    leftText.style.top = "55%"
-    rightText.style.top = "55%"
+    leftText.style.top = "45%"
+    rightText.style.top = "45%"
 
     // left.style.backgroundColor = "#08090a"
     // left.style.color = "#f4faff"
@@ -153,12 +153,12 @@ window.onscroll = function() {
     }
       
       
-    leftText.style.top = "70%"
-    rightText.style.top = "70%"
+    leftText.style.top = "45%"
+    rightText.style.top = "45%"
 
 
-    leftText.innerHTML = "ME"
-    rightText.innerHTML ="!"
+    leftText.innerHTML = "H!RE"
+    rightText.innerHTML ="ME !"
     
   }
     
