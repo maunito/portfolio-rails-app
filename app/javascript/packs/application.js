@@ -143,7 +143,7 @@ window.onscroll = function() {
     leftText.innerHTML = "H!RE"
     rightText.innerHTML ="ME !"
 
-    if (window.scrollY > 200) {
+    if (window.scrollY > 160) {
       contact.classList.remove("displayNone")
     }
 
@@ -151,7 +151,6 @@ window.onscroll = function() {
     if (window.scrollY > 360 ) {
       projects.style.color = "#08090a"
       projects.style.backgroundColor = "#f4faff"
-      contact.classList.add("displayNone")
     }
 
   }
