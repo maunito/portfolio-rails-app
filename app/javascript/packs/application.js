@@ -68,6 +68,7 @@ document.addEventListener('turbolinks:load', () => {
 var state = "initial"
 var left = document.getElementById("left");
 var right = document.getElementById("right");
+var contact = document.getElementById("contact");
 var projects = document.getElementById("projects");
 var bavarianSection = document.getElementById("bavarian-section");
 var rightText = document.getElementById("rightText");
@@ -143,22 +144,30 @@ window.onscroll = function() {
     leftText.innerHTML ="H"
     rightText.innerHTML = "!RE"
 
+    contact.classList.add("displayNone")
+
     // rightText.classList.add("japaneseWriting")
 
 
   } else {
+
+    if (window.scrollY > 320) {
+      contact.classList.remove("displayNone")
+    }
+
     if (window.scrollY > 360 ) {
       projects.style.color = "#08090a"
       projects.style.backgroundColor = "#f4faff"
     }
-      
-      
+
     leftText.style.top = "45%"
     rightText.style.top = "45%"
 
 
     leftText.innerHTML = "H!RE"
     rightText.innerHTML ="ME !"
+
+    
     
   }
     

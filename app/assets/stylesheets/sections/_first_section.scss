@@ -1,7 +1,8 @@
 
 .first-section {
   background-color: #08090a;
-  color: #f4faff;  
+  color: #f4faff; 
+  height: 630px; 
 
   p {
     // text-shadow: 1px 1px #f4faff;
@@ -13,7 +14,7 @@
 
 
 .black-and-white-container {
-  height: 620px;
+  height: 480px;
 
   #left {
     // The commented out line would be needed for lightbulb effect
@@ -45,7 +46,7 @@
 
 }
 
-.contact {
+#contact {
   text-align: center;
   p {
     font-size: large;
