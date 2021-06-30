@@ -65,6 +65,14 @@ document.addEventListener('turbolinks:load', () => {
 
     
 // });
+
+
+var looking = document.getElementById("looking");
+var for_ = document.getElementById("for");
+var a = document.getElementById("a");
+var webDeveloper = document.getElementById("webDeveloper");
+var questionmark = document.getElementById("questionmark");
+
 var state = "initial"
 var left = document.getElementById("left");
 var right = document.getElementById("right");
@@ -77,6 +85,7 @@ var bavarian = document.getElementById("bavarian-section")
 var projects = document.getElementById("projects")
 var leftText = document.getElementById("leftText");
 var video = document.getElementById("video");
+
 
 // for the  light bulb effect...
 document.getElementById("bi").addEventListener("click", function() {
@@ -120,6 +129,19 @@ document.getElementById("bi").addEventListener("click", function() {
 window.onscroll = function() {
   if (window.scrollY < 40 || window.scrollY > 550 ){
 
+    looking.classList.remove("colorWhite")
+    for_.classList.remove("colorWhite")
+    a.classList.remove("colorWhite")
+    webDeveloper.classList.remove("colorWhite")
+    questionmark.classList.remove("colorWhite")
+
+    looking.classList.add("colorBlack")
+    for_.classList.add("colorBlack")
+    a.classList.add("colorBlack")
+    webDeveloper.classList.add("colorBlack")
+    questionmark.classList.add("colorBlack")
+
+
     projects.style.color = "#08090a"
     projects.style.backgroundColor = "#08090a"
 
@@ -129,6 +151,19 @@ window.onscroll = function() {
     contact.classList.add("displayNone")
 
   } else if (window.scrollY > 39 && window.scrollY < 80 ) {
+
+    looking.classList.remove("colorBlack")
+    for_.classList.remove("colorBlack")
+    a.classList.remove("colorBlack")
+    webDeveloper.classList.remove("colorBlack")
+    questionmark.classList.remove("colorBlack")
+
+    looking.classList.add("colorWhite")
+    for_.classList.add("colorWhite")
+    a.classList.add("colorWhite")
+    webDeveloper.classList.add("colorWhite")
+    questionmark.classList.add("colorWhite")
+
 
     projects.style.color = "#08090a"
     projects.style.backgroundColor = "#08090a"

@@ -12,6 +12,14 @@
   }
 }
 
+.teaserContainer {
+  text-align: center;
+  position: relative;
+  top: 35%;
+}
+
+
+
 
 .black-and-white-container {
   height: 480px;
@@ -25,7 +33,7 @@
     text-align: center;
     #leftText {
       position: relative;
-      top: 45%;
+      top: 50%;
       text-align: right;
     }
   }
@@ -38,7 +46,7 @@
     text-align: center;;
     #rightText {
       position: relative;
-      top: 45%;
+      top: 50%;
       text-align: left;
       padding-left: 2%;
     }
