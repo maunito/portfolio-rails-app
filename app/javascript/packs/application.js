@@ -168,8 +168,8 @@ window.onscroll = function() {
     projects.style.color = "#08090a"
     projects.style.backgroundColor = "#08090a"
 
-    leftText.innerHTML ="H"
-    rightText.innerHTML = "!RE"
+    leftText.innerHTML =""
+    rightText.innerHTML = ""
 
     contact.classList.add("displayNone")
 
