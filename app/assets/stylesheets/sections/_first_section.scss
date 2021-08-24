@@ -3,6 +3,7 @@
   background-color: #08090a;
   color: #f4faff; 
   height: 540px; 
+  z-index: 2;
 
   p {
     // text-shadow: 1px 1px #f4faff;
@@ -59,6 +60,7 @@
 #contact {
   text-align: center;
   margin-top: -15%;
+  
   text-shadow: 0.5px 0.5px 1px black;
   p {
     font-size: large;

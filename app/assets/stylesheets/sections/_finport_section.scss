@@ -5,38 +5,41 @@
   z-index: 3;
   transition: 0.65s;
 
-  h2 {
+  .untransformed-header {
     color: #f4faff;
-    text-align: center;
     font-family: 'Raleway', sans-serif;
     // text-orientation: upright;
     // writing-mode: vertical-lr;
     text-shadow: 1px 1px black;
     font-size: larger;
     z-index: 2;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    transition: 0.5s;
     font-size: large;
     letter-spacing: 18px;
   }
 
-  #finport:hover {
-    text-decoration: none;
+  .neutral {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
   }
+
+  // #finport:hover {
+  //   text-decoration: none;
+  // }
 }
 
-#finport-section:hover {
-  h2 {
-    font-weight: none;
-    color: rgba(126, 107, 143,0.66);
-    text-shadow: 1.2px 1.2px white;
-    font-size: 25px;
-    font-family: 'Sonsie One', cursive;
-    letter-spacing: normal;
-    text-transform: lowercase;
-  }
+
+.transformed-header {
+  font-weight: none;
+  color: rgba(126, 107, 143,0.66);
+  text-shadow: 1.2px 1.2px white;
+  font-size: 25px;
+  font-family: 'Sonsie One', cursive;
+  letter-spacing: normal;
+  text-transform: lowercase;
 }
+
 
 .finport-image-container {
   width: 195px;

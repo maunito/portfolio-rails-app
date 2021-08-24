@@ -86,6 +86,7 @@ var projects = document.getElementById("projects")
 var leftText = document.getElementById("leftText");
 var video = document.getElementById("video");
 
+var transformingHeader = document.getElementById("transforming-header");
 
 // for the  light bulb effect...
 document.getElementById("bi").addEventListener("click", function() {
@@ -171,7 +172,7 @@ window.onscroll = function() {
     leftText.innerHTML =""
     rightText.innerHTML = ""
 
-    contact.classList.add("displayNone")
+    contact.classList.add("displayNone");
 
   } else {
 
@@ -196,8 +197,16 @@ window.onscroll = function() {
     video.style.height = "120%"
     video.style.width = "96%"
   } else {
-    video.style.height = "100%"
-    video.style.width = "80%"
+    video.style.height = "100%";
+    video.style.width = "80%";
+  };
+
+  if (window.scrollY <= 950) {
+    transformingHeader.classList.remove("transformed-header");
+    transformingHeader.classList.add("untransformed-header");
+  } else {
+    transformingHeader.classList.remove("untransformed-header");
+    transformingHeader.classList.add("transformed-header");
   }
 };
 
