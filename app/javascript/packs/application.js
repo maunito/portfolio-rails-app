@@ -180,6 +180,11 @@ window.onscroll = function() {
     rightText.innerHTML ="ME !"
 
     if (window.scrollY > 160) {
+      looking.classList.add("colorBlack")
+    for_.classList.add("colorBlack")
+    a.classList.add("colorBlack")
+    webDeveloper.classList.add("colorBlack")
+    questionmark.classList.add("colorBlack")
       contact.classList.remove("displayNone")
     }
 
