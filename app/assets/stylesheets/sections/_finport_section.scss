@@ -7,7 +7,9 @@
 
   .untransformed-header {
     color: #f4faff;
+    text-transform: capitalize;
     font-family: 'Raleway', sans-serif;
+    text-decoration: none !important;
     // text-orientation: upright;
     // writing-mode: vertical-lr;
     text-shadow: 1px 1px black;
@@ -24,13 +26,16 @@
     transition: 0.5s;
   }
 
-  // #finport:hover {
-  //   text-decoration: none;
-  // }
+
+}
+
+a {
+  text-decoration: none !important;
 }
 
 
 .transformed-header {
+  text-decoration: none !important;
   font-weight: none;
   color: rgba(126, 107, 143,0.66);
   text-shadow: 1.2px 1.2px white;
@@ -38,6 +43,10 @@
   font-family: 'Sonsie One', cursive;
   letter-spacing: normal;
   text-transform: lowercase;
+}
+
+.transformed-header:hover {
+  font-size: 30px;
 }
 
 
