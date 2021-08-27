@@ -29,6 +29,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 // External imports
 import "bootstrap";
+import { test } from 'picomatch'
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
@@ -87,6 +88,9 @@ var leftText = document.getElementById("leftText");
 var video = document.getElementById("video");
 
 var transformingHeader = document.getElementById("transforming-header");
+var image1 = document.getElementById("img")
+
+var firstRow = document.getElementById("first-row");
 
 // for the  light bulb effect...
 document.getElementById("bi").addEventListener("click", function() {
@@ -213,9 +217,24 @@ window.onscroll = function() {
   if (window.scrollY <= 950) {
     transformingHeader.classList.remove("transformed-header");
     transformingHeader.classList.add("untransformed-header");
+
+    firstRow.classList.add("visibilityHidden")
+
+    
   } else {
     transformingHeader.classList.remove("untransformed-header");
     transformingHeader.classList.add("transformed-header");
+
+    
+
+
+    firstRow.classList.remove("visibilityHidden");
+    firstRow.classList.add("visibilityVisible");
+    
+  
+    
+    
+
   }
 };
 

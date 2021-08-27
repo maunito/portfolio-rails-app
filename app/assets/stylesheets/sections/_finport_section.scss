@@ -20,12 +20,13 @@
   }
 
   .neutral {
+    // general style for finport logo 
+    // text that does never change
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     transition: 0.5s;
   }
-
 
 }
 
@@ -63,3 +64,10 @@ a {
     text-align: center;
   }
 }
+
+
+.image-style-normal {
+  height: 400px;
+  width: 195px;
+}
+

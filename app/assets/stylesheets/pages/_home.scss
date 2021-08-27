@@ -18,6 +18,18 @@ body {
   display: none;
 }
 
+.displayOn {
+ display: block;
+}
+
+.visibilityHidden {
+  visibility: hidden !important;
+}
+
+.visibilityVisible {
+  visibility: visible !important;
+}
+
 .textAlignLeft {
   text-align: left;
 }
