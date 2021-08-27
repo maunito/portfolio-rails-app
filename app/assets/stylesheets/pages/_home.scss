@@ -105,7 +105,7 @@ body {
 
 
 #projects {
-  margin-top: 150px;
+  margin-top: 200px;
   z-index: 2;
   // The commented out line would be needed for lightbulb effect
   background-color: #08090a;
@@ -120,6 +120,10 @@ body {
     padding-top: 6px;
   }
 
+}
+
+.increase-width {
+  width: 80%;
 }
 
 #projects:hover {

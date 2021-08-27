@@ -151,7 +151,7 @@ window.onscroll = function() {
 
     contact.classList.add("displayNone")
 
-  } else if (window.scrollY > 39 && window.scrollY < 80 ) {
+  } else if (window.scrollY > 39 && window.scrollY <= 240 ) {
 
     looking.classList.remove("colorBlack")
     for_.classList.remove("colorBlack")
@@ -174,9 +174,12 @@ window.onscroll = function() {
 
     contact.classList.add("displayNone");
 
+    leftText.style.top= "50%";
+    rightText.style.top= "60%";
+
   } else {
 
-    if (window.scrollY > 160) {
+    if (window.scrollY > 240) {
       leftText.innerHTML = "H!RE";
       rightText.innerHTML ="ME !";
       looking.classList.add("colorBlack");
@@ -185,6 +188,8 @@ window.onscroll = function() {
       webDeveloper.classList.add("colorBlack");
       questionmark.classList.add("colorBlack");
       contact.classList.remove("displayNone");
+      leftText.style.top= "85%";
+      rightText.style.top= "85%";
     }
 
 
@@ -196,7 +201,7 @@ window.onscroll = function() {
   }
     
 
-// bavarian video increase size
+// bavarian video increase size and finport logo transformation
   if (window.scrollY > 550 && window.scrollY < 950 ) {
     video.style.height = "120%"
     video.style.width = "96%"
