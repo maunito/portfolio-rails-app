@@ -91,7 +91,7 @@ var transformingHeader = document.getElementById("transforming-header");
 var image1 = document.getElementById("img")
 
 var firstRow = document.getElementById("first-row");
-
+var secondRow = document.getElementById("second-row");
 // for the  light bulb effect...
 document.getElementById("bi").addEventListener("click", function() {
   
@@ -218,23 +218,26 @@ window.onscroll = function() {
     transformingHeader.classList.remove("transformed-header");
     transformingHeader.classList.add("untransformed-header");
 
-    firstRow.classList.add("visibilityHidden")
-
+    // firstRow.classList.add("visibilityHidden")
+    // firstRow.classList.remove("visibilityVisible")
     
-  } else {
+  } else if (window.scrollY >= 951 && window.scrollY < 1350) {
     transformingHeader.classList.remove("untransformed-header");
     transformingHeader.classList.add("transformed-header");
 
     
 
 
-    firstRow.classList.remove("visibilityHidden");
-    firstRow.classList.add("visibilityVisible");
+    // firstRow.classList.remove("visibilityHidden");
+    // firstRow.classList.add("visibilityVisible");
     
-  
+  } else if (window.scrollY >= 1350) {
+      // secondRow.classList.remove("visibilityHidden");
+      // secondRow.classList.add("visibilityVisible");
+      transformingHeader.classList.remove("transformed-header");
+      transformingHeader.classList.add("untransformed-header");
     
     
-
   }
 };
 
