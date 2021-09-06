@@ -102,6 +102,7 @@ document.getElementById("bi").addEventListener("click", function() {
     right.style.backgroundColor = "#08090a";
     right.style.color = "#f4faff";
     
+    
 
     state = "secondary"
 
@@ -242,6 +243,11 @@ window.onscroll = function() {
 };
 
 
+// let banner = document.getElementById("banner")
 
-
-
+// window.onscroll = function() {
+//   if (window.scrollY >= 100) {
+//     banner.classList.remove("hundredPixelLetterSpacing");
+//     banner.classList.add("tenPixelLetterSpacing")
+//   } 
+// }
